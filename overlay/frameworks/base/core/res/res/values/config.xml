@@ -380,6 +380,7 @@
     <integer name="config_bluetooth_idle_cur_ma">5</integer>
     <integer name="config_bluetooth_rx_cur_ma">17</integer>
     <integer name="config_bluetooth_tx_cur_ma">46</integer>
+<<<<<<< HEAD
     <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
 
     <!-- Default list of files pinned by the Pinner Service -->
@@ -393,4 +394,36 @@
         <item>"/system/framework/arm/boot-core-libart.oat"</item>
         <item>"/system/framework/arm/boot-core-libart.vdex"</item>
     </string-array>
+=======
+    <integer name="config_bluetooth_operating_voltage_mv">3500</integer>
+
+    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveNotificationLed">true</bool>
+
+    <!-- Default color for notification LED is green. -->
+    <color name="config_defaultNotificationColor">#ff0000ff</color>
+
+    <!-- Default LED on time for notification LED in milliseconds. -->
+    <integer name="config_defaultNotificationLedOn">1000</integer>
+
+    <!-- Default LED off time for notification LED in milliseconds. -->
+    <integer name="config_defaultNotificationLedOff">9000</integer>
+
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
+
+    <!-- Does the notification LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorNotificationLed">true</bool>
+
+    <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">true</bool>
+
+    <!-- Do the battery/notification LEDs support pulsing? Used to decide if we show pulse settings -->
+    <bool name="config_ledCanPulse">true</bool>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
+
+>>>>>>> 124f34bb... shamu : Enable Smart Pixels
 </resources>
