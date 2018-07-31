@@ -1,8 +1,8 @@
 [
  {
-   "repository" : "camcory/android_kernel_moto_shamu",
+   "repository" : "atharvalele/android_kernel_moto_shamu.git",
    "target_path": "kernel/moto/shamu",
-   "branch"     : "Ox-test"
+   "branch"     : "lineage-15.1"
  },
  {
    "repository" : "camcory/platform_hardware_qcom_msm8x84",

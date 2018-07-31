@@ -380,6 +380,7 @@
     <integer name="config_bluetooth_idle_cur_ma">5</integer>
     <integer name="config_bluetooth_rx_cur_ma">17</integer>
     <integer name="config_bluetooth_tx_cur_ma">46</integer>
+<<<<<<< HEAD
     <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
 
     <!-- Default list of files pinned by the Pinner Service -->
@@ -393,6 +394,7 @@
         <item>"/system/framework/arm/boot-core-libart.oat"</item>
         <item>"/system/framework/arm/boot-core-libart.vdex"</item>
     </string-array>
+=======
     <integer name="config_bluetooth_operating_voltage_mv">3500</integer>
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
@@ -423,4 +425,5 @@
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
 
+>>>>>>> 124f34bb... shamu : Enable Smart Pixels
 </resources>
