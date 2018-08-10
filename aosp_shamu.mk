@@ -35,6 +35,13 @@ $(call inherit-product-if-exists, vendor/moto/shamu/device-vendor.mk)
 
 PRODUCT_NAME := aosp_shamu
 
+# Device Fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=shamu \
+    PRIVATE_BUILD_DESC="shamu-user 7.1.1 N6F27M 4299435 release-keys"
+
+BUILD_FINGERPRINT := google/shamu/shamu:7.1.1/N6F27M/4299435:user/release-keys
+
 PRODUCT_PACKAGES += \
     Launcher3
 
